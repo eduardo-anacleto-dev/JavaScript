@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Verificando pais</title>
+
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            margin-top: 30px;
+        }
+
+        input#pais {
+            width: 300px;
+            height: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Verificando seu pais de origem </h1>
+
+    <!--aqui o usuario digita seu pais-->
+    <input type="text" id="pais" placeholder="Digite o seu pais de origem">
+
+    <!--aqui ele verifica-->
+    <input type="button" value="verify" id="verify" onclick="verificar()">
+
+    <!-- nessa div o valor irá aparecer-->
+    <div id="value">
+
+    </div>
+
+
+    <script>
+        function verificar() {
+            var pais = document.getElementById('pais')
+
+            var valor = document.getElementById('value')
+
+            if (pais.value == 'Brasil') {
+                valor.innerText = `Ai sim aqui e brasil RAPA!!`
+            }
+
+            else {
+                valor.innerText = `Foi mal, mas você é gringo papai, le falta sazón!`
+            }
+
+        }
+
+    </script>
+</body>
+
+</html>

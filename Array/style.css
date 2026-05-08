@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(3, 76, 170);
+    font: normal 30px arial;
+}
+
+
+header {
+    text-align: center;
+    color: white;
+    font: normal 40px Helvetica;
+    margin: 40px;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    border-radius: 17px;
+    padding: 5%;
+    margin: auto;
+    margin-top: 50px;
+    width: 700px;
+    box-shadow: 0 0 30px 10px black;
+    padding-top: 6px;
+
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+button {
+    padding: 10px 10px;
+    font-size: 20px;
+    font-family: 'DM sans';
+
+}
+
+select {
+    width: 10vw;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+input {
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+#resultado {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    font-size: 25px;
+    font-family: 'Ubuntu';
+}

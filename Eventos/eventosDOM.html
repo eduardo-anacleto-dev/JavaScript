@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> eventos DOM </title>
+</head>
+ <style>
+ div#area{
+
+    background: rgb(83, 255, 83);
+    color: white;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    line-height: 300px;
+
+    ;
+ }
+
+
+</style>
+<body>
+    
+    <div id="area"> 
+    Interaja
+    </div>
+    
+    <script>
+
+
+    var a = document.getElementById('area');
+
+    // adicionar eventos dentro do java script
+   a.addEventListener('click', clicar);
+   a.addEventListener('mouseenter', entrar);
+   a.addEventListener('mouseleave', sair);
+
+      // adicionar as funções para os eventos
+        function clicar(){
+           a.innerText = 'clicou!';
+           a.style.background = 'red';
+           a.style.width = '400px';
+        }
+        function entrar(){
+           a.innerText = 'Entrou!';
+           }
+
+        function sair(){
+           a.innerText = 'Saiu!';
+           a.style.width = '300px';
+           a.style.backgroundColor = ' rgb(83, 255, 83)'; 
+            }
+            
+            
+        
+
+    </script>
+</body>
+</html>

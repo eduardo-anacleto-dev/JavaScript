@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sabesp
+    </title>
+</head>
+<style>
+    h1 {
+        text-align: center;
+        font-family: inherit;
+    }
+
+    input#txtconta {
+        width: 300px;
+        height: 40px;
+    }
+</style>
+
+<body>
+    <h1> Sistema de monitoramento de conta </h1>
+    <input type="number" id="txtconta" placeholder="Digite o valor da conta...">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="valor">
+
+    </div>
+
+    <script>
+        function calcular() {
+            var txtconta = document.getElementById('txtconta')
+            var conta = Number(txtconta.value)
+            var valor = document.querySelector('div#valor')
+
+            if (conta >= 100) {
+                valor.innerHTML = `O valor de sua conta de agua é de <strong> ${conta} </strong> reais, cuidado com o desperdicio de água!`
+            }
+            else {
+                valor.innerHTML = `O valor de sua conta de agua é de <strong> ${conta} </strong> reais, continue economizando água!`
+            }
+        }
+    </script>

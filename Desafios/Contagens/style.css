@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(3, 76, 170);
+    font: normal 20px arial;
+}
+
+
+header{
+     text-align: center;
+     color: white;
+     font: normal 40px Helvetica;
+     margin: 40px;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    border-radius: 17px;
+    padding: 5%;
+    justify-content: left;
+    margin:auto;
+    width: 600px;
+    box-shadow: 0 0  30px 10px black;
+    font-size: 25px;
+    padding-top: 5px;
+
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-style: italic;
+
+}
+
+#verificar{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}

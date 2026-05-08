@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(117, 47, 7);
+    font: normal 20px arial;
+}
+
+
+header{
+     text-align: center;
+     color: white;
+}
+
+section{
+    background-color: rgb(209, 82, 99);
+    border-radius: 17px;
+    padding: 5%;
+    justify-content: left;
+    margin:auto;
+    width: 600px;
+    box-shadow: 0 0  30px 10px black;
+    font-size: 25px;
+
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-style: italic;
+
+}
+
+#verificador {
+    font-size:25px;
+    font-family: Helvetica;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(123, 123, 214)
+}
+
+#resposta{
+    font: normal, 15px Helvetica;
+}
+
+img{
+    width: 400px;
+    height: 700px;
+    align-items: right;
+    
+}
+
+#sarinha{
+    width: 400px;
+    height: 800px;
+}
+
+#adolescente{
+    width:500px;
+    height:350px;
+    margin: 40px;
+    align-items: center;
+}
+
+#txtano{
+    border-radius: 20px;
+    width: 150px;
+    height: 25px;
+    margin-left:30px;
+    box-shadow: 0 0 40px 3px purple;
+    border: 3px solid black; 
+}
+
+#titulo{
+    font: normal 40px Helvetica;
+    margin: 40px;
+}
