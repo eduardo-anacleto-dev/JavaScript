@@ -3,8 +3,8 @@
 Aqui estao alguns feitos por mim de:
 - Array
 - Condicoes
+- Desafios
 - Eventos
-- Exercicios
 - Funcoes
 - Objetos
 - Switch
