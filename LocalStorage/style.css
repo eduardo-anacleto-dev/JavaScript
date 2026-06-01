@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+    margin: 0;
+    background-color: rgba(4, 13, 37, 0.87);
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    margin-bottom: 10px;
+    margin-top: 0;
+
+}
+
+#listaTarefas{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    gap: 70px;
+    background-color: rgba(29, 65, 165, 0.432);
+    padding: 40px;
+    max-width: 800px;
+    width: 700px;
+    max-height: 1000px;
+    border-radius: 10px;
+    color: gray;
+    box-shadow: 15px 10px 10px  black;
+}
+
+#addName, #adicionar, #nome , #tarefas{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 3px;
+}
+
+select{
+    width: 300px;
+    height: 200px;
+    appearance: none;
+}
+
+#navbar{
+    background-color:  rgba(4, 13, 37, 0.548);
+    width: 100%;
+    padding: 13px;
+    margin: 0;
+    color: white;
+}
+
+.navegar{
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    font-size: 22px;
+    font-style: oblique;
+    justify-content: center;
+
+}
+
+#login, #cadastro, #logout{
+    border: 2px solid white;
+    padding-inline: 30px;
+    border-radius: 5px;
+    cursor:pointer
+}
+
+/* PARTE DE LOGIN */
+.sectionLogin{
+    display: flex;
+    gap:20px;
+    background-color: rgba(29, 65, 165, 0.432);
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    max-height: 700px;
+    padding:20px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    box-shadow: 15px 10px 10px  black;
+}
+
+#nomeLogin, #senhaLogin , #nomeCadastro, #senhaCadastro{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgb(133, 133, 133);
+    color: white;    
+}
+
+input::placeholder{
+    color: rgb(100, 100, 100);
+    
+}
+#addLogin, #loginConfirm, #newSave , #addPassword{
+    width: 50%;
+    padding:5px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(49, 228, 49);
+    font-size: 20px;
+    justify-content: center;
+    cursor:pointer;
+}
+
+
+hr{
+    width: 100%;
+}
+
+#clear{
+    cursor:pointer
+}
+
+#seePasswordWrapper{
+    display:flex;
+    align-self: flex-start;
+    align-items: center;
+    gap:8px;
+}

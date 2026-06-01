@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title> Cadastro </title>
+</head>
+
+<body>
+    <nav id="navbar"> 
+        
+        <ul>
+            <div class="navegar">
+            <li> lista 
+            <li> home
+            <li id="clear"> clear 
+            <li id="login"> Login </li>
+            </div>
+        </ul>
+    </nav>
+
+
+    <h1> Cadastro </h1>
+    <section class="sectionLogin">
+           
+                <h2> Digite o nome de usuario!</h2>
+                <input type="text" placeholder="digite seu nome" id="nomeCadastro"> 
+                <button id="newSave"> salvar </button>
+           <hr>
+
+                <h2> Crie sua senha </h2>
+                <input type="password" placeholder="digite sua senha" id="senhaCadastro"> 
+
+                <div id="seePasswordWrapper"> 
+                <input type="checkbox" id="seePassword"> 
+                <label for="seePassword"> Mostrar sua senha </label>
+                </div>
+                
+                <button id="addPassword"> salvar 
+                    
+                </button>
+                <p id="mensagem"></p>
+                
+    </section>
+
+
+
+    <script src="cadastro.js"> </script>
+</body>
+
+</html>
